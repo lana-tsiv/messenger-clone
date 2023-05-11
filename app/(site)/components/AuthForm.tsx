@@ -1,5 +1,6 @@
 "use client";
 
+import Button from "@/app/components/Button";
 import Input from "@/app/components/inputs/Input";
 import { type } from "os";
 import { useCallback, useState } from "react";
@@ -70,6 +71,9 @@ const AuthForm = () => {
             register={register}
             errors={errors}
           />
+          <div>
+            <Button>Test</Button>
+          </div>
         </form>
       </div>
     </div>
